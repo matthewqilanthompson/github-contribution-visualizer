@@ -21,7 +21,7 @@ The standard GitHub contribution graph only shows commit frequency, which reward
 
 2. **Token Setup**:
    - Public repos only: No setup needed. GitHub provides token automatically
-   - Private repos: See [SETUP.md](SETUP.md) for Personal Access Token instructions
+   - Private repos: a Personal Access Token is required
 
 3. **Choose your style**:
    - Card style (default): `generate_contributions_simple.py`
@@ -51,7 +51,6 @@ The standard GitHub contribution graph only shows commit frequency, which reward
    - Go to: GitHub Settings → Developer settings → Personal access tokens
    - Generate new token (classic)
    - Scopes needed: `public_repo` (or `repo` for private repos)
-   - See [SETUP.md](SETUP.md) for detailed instructions
 
 3. Set environment variables:
 
@@ -93,7 +92,6 @@ Year-long heatmap grid showing daily activity patterns. More detailed but requir
 - Updates on repository events (push, PR, issues)
 - Daily backup at 00:00 UTC
 
-See [REALTIME-SETUP.md](REALTIME-SETUP.md) for advanced real-time configuration.
 
 ## Customization
 
